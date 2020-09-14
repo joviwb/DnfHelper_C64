@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="公告.cpp">
+      <Filter>南樱</Filter>
+    </ClCompile>
+    <ClCompile Include="剧情.cpp">
+      <Filter>南樱</Filter>
+    </ClCompile>
+    <ClCompile Include="模块.cpp">
+      <Filter>南樱</Filter>
+    </ClCompile>
+    <ClCompile Include="配置.cpp">
+      <Filter>南樱</Filter>
+    </ClCompile>
+    <ClCompile Include="判断.cpp">
+      <Filter>南樱</Filter>
+    </ClCompile>
+    <ClCompile Include="全屏.cpp">
+      <Filter>南樱</Filter>
+    </ClCompile>
+    <ClCompile Include="收包.cpp">
+      <Filter>南樱</Filter>
+    </ClCompile>
+    <ClCompile Include="顺图.cpp">
+      <Filter>南樱</Filter>
+    </ClCompile>
+    <ClCompile Include="寻路.cpp">
+      <Filter>南樱</Filter>
+    </ClCompile>
+    <ClCompile Include="自动.cpp">
+      <Filter>南樱</Filter>
+    </ClCompile>
+    <ClCompile Include="组包.cpp">
+      <Filter>南樱</Filter>
+    </ClCompile>
+    <ClCompile Include="CALL.cpp">
+      <Filter>南樱</Filter>
+    </ClCompile>
+    <ClCompile Include="按键.cpp">
+      <Filter>南樱</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Head File</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>南樱\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Head File</Filter>
+    </ClInclude>
+    <ClInclude Include="地址.h">
+      <Filter>Head File</Filter>
+    </ClInclude>
+    <ClInclude Include="全局.h">
+      <Filter>Head File</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Head File</Filter>
+    </ClInclude>
+    <ClInclude Include="网络验证系统MT.h">
+      <Filter>Head File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="南樱">
+      <UniqueIdentifier>{9827a702-9067-44d0-956e-db6bdf5c3b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Head File">
+      <UniqueIdentifier>{f6719efd-5a23-45dc-9e9b-db31cf3ef1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="南樱\Main">
+      <UniqueIdentifier>{5d0a4dbf-1050-4bcc-be4c-638e405a686e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="荒年网络.rc">
+      <Filter>南樱\Main</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="网络验证系统MT.lib">
+      <Filter>南樱</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
